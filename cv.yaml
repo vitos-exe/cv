@@ -1,0 +1,81 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Vitalii Chernysh
+  headline: Backend & DevOps Engineer | ML Infrastructure & Edge Computing
+  location: "Rotterdam, The Netherlands"
+  email: vivich4omega@gmail.com
+  phone: "+31687247801"
+  social_networks:
+    - network: GitHub
+      username: vitos-exe
+    - network: LinkedIn
+      username: vitos-exe
+  sections:
+    summary:
+      - "Backend-focused software engineer with 3+ years of experience building production systems in Java (Spring Boot, Quarkus) and TypeScript (Angular). Passionate about developer experience, automation, and machine learning. Experienced with Docker, CI/CD, and agentic workflows. Fluent in Python through extensive personal and university projects."
+    skills:
+      - label: Languages
+        details: "TypeScript, Python, Java, Scala"
+      - label: Frameworks & Libraries
+        details: "Spring Boot, Angular, Quarkus, FastAPI, Akka, React, PyTorch"
+      - label: Infrastructure & DevOps
+        details: "Docker, Kubernetes, GitLab CI/CD, GitHub Actions, System Administration"
+      - label: AI & Machine Learning
+        details: "Agentic Workflows, Neural Networks, RAG, Prompt Engineering"
+      - label: Databases
+        details: "PostgreSQL, Redis, Cassandra, Elasticsearch"
+      - label: Soft Skills
+        details: "Client Communication, Technical Consultancy, Team Leadership, Cross-functional Collaboration"
+    experience:
+      - company: Ko-Station
+        position: Co-Founder & Board Member
+        start_date: 2022-10
+        location: "Rotterdam, Netherlands"
+        highlights:
+          - "Co-founded and scaled a multi-functional organization, providing hands-on leadership across technical operations and community growth"
+          - "Maintained internal information systems and managed technical infrastructure for podcast recordings and public events"
+          - "Defined organizational strategy and represented the mission as a public speaker at key events to drive engagement and brand awareness"
+      - company: Lunatech
+        position: Intern
+        start_date: 2022-11
+        end_date: 2023-08
+        location: "Rotterdam, Netherlands"
+        highlights:
+          - "Co-designed and implemented hexagonal architecture backend exposing company data via GraphQL, serving internal HR and operational workflows"
+          - "Built a Slack bot integrating Toggl time-tracking, adopted by development teams for streamlined workflow"
+          - "Led a team of interns, monitoring task progress, resolving blockers, and conducting code reviews"
+      - company: Lunatech
+        position: Software Engineer
+        start_date: 2023-08
+        end_date: 2024-01
+        location: "Rotterdam, Netherlands"
+        highlights:
+          - "Maintained a video labeling platform for AI training datasets in its end-of-lifecycle phase, built with Scala Akka and ScalaJS/React, serving as technical liaison with client"
+          - "Managed Elasticsearch as the primary datastore for video clip metadata, alongside a separate Python service backed by PostgreSQL for calculations"
+          - "Collaborated with infrastructure teams to manage containerized deployments and CI/CD pipelines"
+      - company: Lunatech
+        position: Software Engineer
+        start_date: 2024-01
+        location: "Rotterdam, Netherlands"
+        highlights:
+          - "Delivered a unified AI assistant with natural language interface for global Porsche dealer network (thousands of users), leveraging RAG and agentic workflows to automate manual task execution"
+          - "Implemented an AI-driven translation pipeline, replacing manual localization workflows and significantly accelerating content updates"
+          - "Optimized development infrastructure by reducing integration test startup time by 5× and rebuilding Docker images with Distroless base to lower memory footprint"
+          - "Contributed to a complete UI redesign in Angular, implementing new design system components and client-specific workflows"
+    education:
+      - institution: '"Lviv Polytechnic" National University'
+        degree: Bachelor
+        area: "Computer Science (Artificial Intelligence department)"
+        start_date: 2021-09
+        end_date: 2025-06
+        location: "Lviv, Ukraine"
+        highlights:
+          - "Computer Science curriculum with extensive ML coverage: computer vision, NLP, traditional ML methods, statistics, and optimization"
+          - "Final paper: NLP-based Music Emotion Recognition"
+      - institution: 'Lyceum "Sykhivsky"'
+        area: Full secondary education
+        start_date: 2010-09
+        end_date: 2021-06
+        location: "Lviv, Ukraine"
+        highlights:
+          - "Specialized in mathematics and physics track"
